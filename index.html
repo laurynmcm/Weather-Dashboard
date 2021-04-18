@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Report</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="C:\Users\Lauryn\Desktop\carl-ott-fsf-pt-02-2021-u-c\06-Server-Side-APIs\02-Homework\Assets\style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <!-- search area -->
+    <div class="area1">
+      <section class="card1">
+        <h5 id = "searchTitle" class="card-title">Search for a city:</h5>
+            <form>
+            <input id="searchBar" type="text" style="border-radius: 5px; background-color: rgba(197, 194, 194, 0.767);"><br><br>
+            <button id="searchButton" type="button" class="btn btn-dark btn-sm">Search</button>
+          </form>
+    
+          <div id ="buttonArea" >
+            <button class="btn btn-dark" style = "width:100%; margin-bottom:5px;">slot 1</button>
+            <button class="btn btn-dark" style = "width:100%; margin-bottom:5px;">slot 2</button>
+            <button class="btn btn-dark" style = "width:100%; margin-bottom:5px;">slot 3</button>
+            <button class="btn btn-dark" style = "width:100%; margin-bottom:5px;">slot 4</button>
+            
+            </div>
+
+      </section>
+      <section class="card2" style="height: auto;">
+        <h5 id= "cityText" class="card-title">City Name:</h5>
+        <h7>Coordinates:</h7>
+        <h7 id= "lat"></h7>
+        <h7 id= "lon"></h7>
+        <p id="tempText">Temperature: </p>
+        <p id="humidText">Humidity: </p>
+        <p id="windText">Wind Speed: </p>
+        <p id="UVText">UV Index: </p>
+
+        <button id = "saveButton" class="btn btn-dark" style="width: 20%; margin-left: auto; margin-right: auto;"> Save City</button>
+
+
+      </section >
+
+        <div class="card-group" style="width: 70%; margin-left: 35%; margin-right: 2%; text-align: center">
+          <div class="card" style="background-color: rgba(229, 167, 143, 0.671);">
+            <div class="card-body">
+              <h5 id= "dayOne" class="card-title">Day One</h5>
+              <p id="tempText1">Temperature: </p>
+              <p id="humidText1">Humidity: </p>
+              
+              
+            </div>
+          </div>
+          <div class="card" style="background-color: rgba(229, 167, 143, 0.671);">
+            <div class="card-body">
+              <h5 id= "dayTwo" class="card-title">Day Two</h5>
+              <p id="tempText2">Temperature: </p>
+              <p id="humidText2">Humidity: </p>
+              
+              
+            </div>
+          </div>
+          <div class="card" style="background-color: rgba(229, 167, 143, 0.671);">
+            <div class="card-body">
+              <h5 id= "dayThree" class="card-title">Day Three</h5>
+              <p id="tempText3">Temperature: </p>
+              <p id="humidText3">Humidity: </p>
+              
+              
+            </div>
+          </div>
+          <div class="card" style="background-color: rgba(229, 167, 143, 0.671);">
+            <div class="card-body">
+              <h5 id= "dayFour" class="card-title">Day Four</h5>
+              <p id="tempText4">Temperature: </p>
+              <p id="humidText4">Humidity: </p>
+              
+              
+            </div>
+        </div>
+  
+        <div class="card" style="background-color: rgba(229, 167, 143, 0.671);">
+          <div class="card-body">
+            <h5 id= "dayFive" class="card-title">Day Five</h5>
+            <p id="tempText5">Temperature: </p>
+            <p id="humidText5">Humidity: </p>
+            
+        
+          </div>
+      </div>
+        
+      </div>
+
+
+
+      
+        
+
+      
+
+      
+
+     
+
+      
+    
+
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="C:\Users\Lauryn\Desktop\carl-ott-fsf-pt-02-2021-u-c\06-Server-Side-APIs\02-Homework\Assets\script.js"></script>
+    
+
+    
+</body>
+</html>
