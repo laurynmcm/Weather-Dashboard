@@ -113,7 +113,7 @@ function searchApi(cityName) {
   }
 
   function uvApi(lat, lon){
-    var requestUrl = "http://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&units=metric&appid=0b140241ee90454edd15e2fd3831a8ee";
+    var requestUrl = "https://api.openweathermap.org/data/2.5/uvi?lat=" + lat + "&lon=" + lon + "&units=metric&appid=0b140241ee90454edd15e2fd3831a8ee";
 
     fetch(requestUrl)
       .then(function (response) {
