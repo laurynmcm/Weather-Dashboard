@@ -79,6 +79,10 @@ header{
     .area1{
         flex-direction: column;
     }
+
+    .card{
+      margin-left: -118px;
+    }
     
 
   }
